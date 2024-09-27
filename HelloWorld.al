@@ -9,6 +9,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: Hello Kim let us embark on the road to greatness!!!!');
+        Message('App published: Hello Kim let us embark on the road to greatness!!!');
+        Message('Please proceed to learning extensions in AL language, bravo!');
     end;
 }
